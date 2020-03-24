@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+<style>
+body{
+	background-color: #001e00;
+}
+.container1{
+  background-color: #001e00;
+}
+.container1 ul li a{
+  color: #94ff94;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.container1 ul li a:hover{
+  color: #001e00;
+  background-color: #94ff94;
+  text-decoration: line-through;
+}
+.ulist{
+  background: #94ff94;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: cursive;
+	text-transform: capitalize;
+}
+input{
+	margin-top: 10px;
+}
+p{
+	color: white;
+	text-transform: capitalize;
+}
+footer{
+  width: 100%;
+  height: 350px;
+  background-color: black;
+  opacity: 0.7;
+  margin-top: 20%;
+}
+footer h1{
+  top: 300px;
+  color: #94ff94;
+  font-size: 25px;
+  margin: 0 auto;
+  margin-left: 30px;
+  font-weight: bold;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+footer p{
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: tahoma;
+}
+footer ul li{
+  color: #94ff94;
+  font-size: 20px;
+}
+
+	</style>
+</head>
+<body>
+ <!-- navbar section-->
+    <!-- <section class="container-fluid">
+        <div class="container1">
+            <div class="row">
+                <div class="col-lg-6 col-md-3 col-sm-12 col-xsm-12">
+                    <img src="image/logo.png" width="250" height="150">
+                </div>
+            <div class="col-lg-6 col-md-9 col-sm-12 col-xsm-12 mt-5">
+                <nav class="navbar">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="home1.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Brands</a>
+                                <ul class="dropdown-menu ulist" style="background-color: #94ff94;">
+                                    <li class="dropdown-item" ><a href="sony.html" class="dropdown-link" style="color: #001e00;">Sony</a></li>
+                                    <li class="dropdown-item"><a href="sega.html" class="dropdown-link" style="color: #001e00">Sega</a></li>
+                                    <li class="dropdown-item"><a href="nintendo.html" class="dropdown-link" style="color: #001e00;"> Nintendo</a></li>
+                                    <li class="dropdown-item"><a href="microsoft.html" class="dropdown-link" style="color: #001e00;">Microsoft</a></li>
+                                </ul>
+                            </li>
+                        <li class="nav-item"><a href="review.html" class="nav-link">Reviews</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- form section -->
+    <section class="container-fluid">
+    	<div class="container" style="background-image: url(img/back3.jpg);background-size: cover;">
+    		<form method="Post" action="action_page.php">
+    			<h1>fill out the following details..</h1>
+    			<p>Name:</p>
+    			<input type="text" name="name" placeholder="First Name" required="required" 
+    			style="width: 40%; margin-left: 50px;"/>
+    			<input type="text" name="last name" placeholder="Last Name" required="required" 
+    			style="width: 40%; margin-left: 50px;"/>
+    			<br>
+    			<br>
+    			<p>Email Address:</p>
+    			<input type="email" name="email" placeholder="Email" required="required" 
+    			style="width: 86%; margin-left: 50px;">
+    			<br>
+    			<br>
+    			<p>Phone number:</p>
+    			<input type="number" name="phone" placeholder="+92-" required="required"
+    			style="width: 86%; margin-left: 50px;">
+    			<br>
+    			<br>
+    			<p>contact preference:</p>
+    			<input type="radio" name="option" value="option1"><p>Please reply via email address</p>
+    			<input type="radio" name="option" value="option2"><p>Please contact via phone no</p>
+    			<br>
+    			<p>address:</p>
+    			<input type="text" name="address" multiple="multiple" placeholder="Street Address" 
+    			style="width: 86%; margin-left: 50px;"/>
+    			<br>
+    			<input type="text" name="city" placeholder="City" style="margin-left: 50px; width: 40%;">
+    			<input type="text" name="region" placeholder="Region" 
+    			style="margin-left: 50px; width: 40%;"/>
+    			<br>
+    			<input type="text" name="code" placeholder="Postal/ Zip Code" required="required" 
+    			style="margin-left: 50px; width: 40%;">
+    			<input type="text" name="region" placeholder="Country" required="required" 
+    			style="margin-left: 50px; width: 40%;"/>
+    			<br>
+    			<br>
+    			<p>message:</p>
+    			<input type="text" name="message" style="width: 86%; height: 100px; margin-left: 50px;"/>
+    			<br>
+    			<br>
+    			<p>payment mode:</p>
+    			<input type="radio" name="mode" required="required" /><p>credit card</p>
+    			<input type="radio" name="mode" required="required" /><p>bank account</p>
+    			<br>
+    			<input type="date" name="date" placeholder="DD/MM/YYYY"/>
+    			<br>
+    			<input type="submit" />
+
+    		</form>
+    	</div>
+    </section>
+    <!-- footer -->
+    <footer style="background-color:#001e00; margin-top: 10%;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xsm-3" data-aos="fade-up">
+         <h1>information</h1><br><br>
+         <p style="color: #00d600;"> Tel</span>: <span style="color:#94ff94;">+22-3719558</span></p>
+         <p style="color: #00d600;">Email: <span style="color:#94ff94;">info@tangoline43.com</span></p>
+         <p style="color: #00d600;">Location: <span style="color:#94ff94;">Aptechgardencenter, Karachi,Pakistan </span></p>
+          </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xsm-3" data-aos="fade-up">
+          <h1>upcoming games</h1><br><br>
+          <ul>
+            <li>Dragons War</li>
+            <li>Stranger Anime</li>
+            <li>Skyfall Challenge</li>
+            <li>Ripple Fight</li>
+            <li>Alverter David</li>
+          </ul>
+        </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xsm-3" data-aos="fade-up">
+            <h1>subscribe</h1><br><br>
+            <p style="color: #94ff94; font-size: 20px;">Are you looking for professional developer for your games..</p>
+            <br>
+            <form method="post" style="margin-left: 30px;">
+            <input type="Email" name="email" placeholder="Type Email" required="required" />
+            <br>
+            <br>
+            <a href="" class="btn btn-success">subscribe</a>
+          </form>
+          </div>
+        </div>
+    </div>
+      </footer>
+</body>
+</html>

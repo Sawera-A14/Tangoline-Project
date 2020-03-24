@@ -1,0 +1,137 @@
+body{
+	background: #001e00;
+}
+.container1{
+  background-color: #001e00;
+}
+.container1 ul li a{
+  color: #94ff94;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.container1 ul li a:hover{
+  text-decoration: line-through;
+}
+.pic{
+	/* width: 100%;
+	height: 450px; */
+	background-image: url(image/bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.pic h1{
+	color: #94ff94;
+	padding: 12%;
+	float: right;
+	font-weight: bold;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.mission{
+	width: 100%;
+}
+@media(max-width: 766px){
+  .mission{
+    width: 100%;
+   
+  }
+  /* .mission h1,p{
+  	width: 80%;
+    margin-left: 1%;
+  } */
+  /* .pic img{
+    width: 100px;
+  }*/
+  .pic h1{
+    font-size: 20px;
+    float: left;
+    padding-top:50%;
+    padding-left: 20%;
+   
+    
+  } 
+}
+.mission h1{
+  /* width: 80%; */
+  color: #94ff94;
+  margin-top: 10%;
+  /* margin-left: 100px; */
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 5px 0px 10px 10px;
+  text-transform: capitalize;
+  background-color: #003300;
+}
+.mission h1:hover{
+  color: #003300;
+  background-color: #94ff94;
+}
+.mission p{
+  /* width: 80%; */
+  color: #94ff94;
+  margin-top: 5%;
+  /* margin-left: 100px; */
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.about p{
+	/* width: 80%; */
+  color: #94ff94;
+  margin-top: 5%;
+  /* margin-left: 100px; */
+  font-size: 20px;
+  text-align: center;
+  font-family: tahoma;
+  text-transform: capitalize;
+}
+.about h1{
+  /* width: 80%; */
+  color: #94ff94;
+  margin-top: 10%;
+  /* margin-left: 100px; */
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 5px 0px 10px 10px;
+  text-transform: capitalize;
+  background-color: #003300;
+}
+.about h1:hover{
+  color: #003300;
+  background-color: #94ff94;
+}
+.mid{
+	width: 100%;
+	height: 450px;
+	margin-top: 10%;
+	background-image: url(image/contd.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+footer{
+  width: 100%;
+  height: 350px;
+  background-color: black;
+  opacity: 0.7;
+  margin-top: 20%;
+}
+footer h1{
+  top: 300px;
+  color: #94ff94;
+  font-size: 25px;
+  margin: 0 auto;
+  /* margin-left: 30px; */
+  font-weight: bold;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+footer p{
+  /* margin-left: 30px; */
+  font-size: 20px;
+  font-family: tahoma;
+}
+footer ul li{
+  color: #94ff94;
+  font-size: 20px;
+}

@@ -1,0 +1,236 @@
+body{
+ background: #001e00;
+}
+.swiper-container{
+ width: 100%;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.swiper-slide{
+ background-position: center;
+ background-size: cover;
+ width: 400px;
+ height: 400px;
+ 
+}
+.container1{
+  background-color: #001e00;
+}
+.container1 ul li a{
+  color: #94ff94;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.container1 ul li a:hover{
+  text-decoration: line-through;
+}
+
+@media(max-width: 767px){
+  
+}
+.container2 h1{
+  
+  color: #94ff94;
+ 
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 5px 0px 10px 10px;
+  text-transform: capitalize;
+  background-color: #003300;
+}
+.container2 h1:hover{
+  color: #003300;
+  background-color: #94ff94;
+}
+.slide img{
+  width: 100%;
+  height: 200px;
+  border: 1px #003300;
+  margin-top: 10%;
+  box-shadow: 5px 0px 5px 5px #94ff94;
+}
+.slide img:hover{
+  border: solid 5px #94ff94;
+}
+.sticky img{
+  width: 20%;
+  height: 150px;
+  margin-top: 10%;
+
+}
+blockquote{
+  width: 30%;
+  color: #94ff94;
+  float: right;
+  font-size: 18px;
+  margin-top: 15%;
+  margin-right: 10%;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+#spn{
+  width: 100%;
+  height: 5px;
+  display: block;
+  margin-top: 10px;
+  background-color: #008000;
+}
+.pop h1{
+  /* width: 80%; */
+  color: #94ff94;
+  margin-top: 10%;
+ 
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 5px 0px 10px 10px;
+  text-transform: capitalize;
+  background-color: #003300;
+}
+.pop h1:hover{
+  color: #003300;
+  background-color: #94ff94;
+}
+.board h1{
+  /* width: 80%; */
+  color: #94ff94;
+  margin-top: 10%;
+  
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 5px 0px 10px 10px;
+  text-transform: capitalize;
+  background-color: #003300;
+}
+.board h1 p{
+  font-size: 20px;
+  margin-top: 2%;
+  font-weight: normal;
+}
+.board h1:hover{
+  color: #003300;
+  background-color: #94ff94;
+}
+.container3{
+  width: 100%;
+  background-color: #001e00;
+}
+.container3 ul li a{
+  color: #94ff94;
+  font-size: 20px;
+  size: 100px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.container3 ul li a:hover{
+  color: #001e00;
+  background-color: #94ff94;
+  text-decoration: line-through;
+}
+@media(max-width: 767px){
+  .container3 ul{
+    width: 100%;
+    display: inline;
+  }
+}
+#games img{
+  width: 80%;
+  height: 300px;
+  /* margin-left: 60px; */
+  border: #94ff94;
+}
+#games h2{
+  top: 300px;
+  color: #94ff94;
+  margin: 0 auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#games h2:hover{
+  color: #008000;
+}
+#games p{
+  color: #94ff94;
+}
+#games img:hover{
+  filter: blur(5px);
+}
+footer{
+  padding-bottom: 5%;
+  width: 100%;
+  /* height: 350px; */
+  background-color: black;
+  opacity: 0.7;
+  margin-top: 20%;
+}
+footer h1{
+  top: 300px;
+  color: #94ff94;
+  font-size: 25px;
+  margin: 0 auto;
+  /* margin-left: 30px; */
+  font-weight: bold;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+footer p{
+  /* margin-left: 30px; */
+  font-size: 20px;
+  font-family: tahoma;
+}
+footer ul li{
+  color: #94ff94;
+  font-size: 20px;
+}
+.up h1{
+  /* width: 80%; */
+  color: #94ff94;
+  margin-top: 10%;
+  /* margin-left: 100px; */
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 5px 0px 10px 10px;
+  text-transform: capitalize;
+  background-color: #003300;
+}
+.up h1:hover{
+  color: #003300;
+  background-color: #94ff94;
+}
+@media(max-width: 674px;){
+  /* .up{
+    margin-left: 10%;
+  } */
+}
+.hoverup img{
+  width: 100%;
+  margin-top: 10%;
+  height: 200px;
+  border: 1px #003300;
+  box-shadow: 5px 0px 5px 5px #94ff94;
+}
+.hoverup img:hover{
+  transform: translateY(-10%);
+  border: solid 5px #94ff94;
+}
+/* #mycarosel, #mycarosel img{
+  width: 100%;
+  height: 400px;
+} */
+.pr{
+    color: #94ff94;
+    text-align: center;
+    font-family: cursive;
+    
+}
+.rw{
+    border-radius: 500px;
+    box-shadow: 0 0 16px 0 silver;
+}
+.rw:hover{
+    box-shadow: 0 0 16px 0 rgb(139, 103, 103);
+}
+.rw2:hover{
+    color: brown;
+}
